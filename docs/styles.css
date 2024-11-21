@@ -4,6 +4,24 @@
   box-sizing: border-box;
 }
 
+:root {
+  /*Colors*/
+  --gradient-clr: hsl(6, 100%, 80%) to hsl(335, 100%, 65%);
+  --pale-blue: hsl(243, 100%, 93%);
+  --grayish-blue: hsl(229, 7%, 55%);
+  --dark-blue: hsl(228, 56%, 26%);
+  --v-dark-blue: hsl(229, 57%, 11%);
+
+  /*Fonts*/
+  --font-fam: "Raleway", sans-serif;
+  --small-weight: 400;
+  --large-weight: 700;
+  --body-font-size: 0.875rem; /*14px*/
+
+  /*Other*/
+  --desktop-bg-image: url(images/bg-desktop.png);
+  --mobile-big-image: url(images/bg-mobile.png);
+}
 
 
 
