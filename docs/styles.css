@@ -34,8 +34,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-areas: 
-  "fylo"
-  "storage";
+  "fylo storage";
   gap: 1rem;
 }
 .storage-container,
