@@ -30,11 +30,26 @@ body {
   background-color: var(--v-dark-blue);
 }
 
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: 
+  "fylo"
+  "storage";
+  gap: 1rem;
+}
 .storage-container,
 .fylo-container {
   background-color: var(--dark-blue);
 }
 
+.fylo-container {
+  grid-area: fylo;
+}
+
+.storage-container {
+  grid-area: storage;
+}
 
 
 
