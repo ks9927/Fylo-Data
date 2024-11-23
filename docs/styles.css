@@ -19,10 +19,16 @@
   --body-font-size: 0.875rem; /*14px*/
 
   /*Other*/
-  --desktop-bg-image: url(images/bg-desktop.png);
-  --mobile-big-image: url(images/bg-mobile.png);
+  --desktop-bg-image: url("images/bg-desktop.png");
+  --mobile-big-image: url("images/bg-mobile.png");
 }
 
+body {
+  height: 100vh;
+  font-family: var(--font-fam);
+  background-image: var(--desktop-bg-image);
+  background-color: var(--v-dark-blue);
+}
 
 
 
