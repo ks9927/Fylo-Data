@@ -48,6 +48,13 @@ body {
 
 .storage-container {
   grid-area: storage;
+  color: var(--pale-blue);
+}
+
+.fylo-icons > * {
+  background-color: var(--v-dark-blue);
+  padding: 15px;
+  border-radius: 10px;
 }
 
 
