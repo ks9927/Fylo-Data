@@ -94,6 +94,7 @@ body {
   );
   border-radius: 8px;
   position: relative;
+  margin-top: 1.5rem;
 }
 
 .progress-bar::after {
@@ -108,6 +109,16 @@ body {
   border-radius: 50%;
 }
 
+.first-label {
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+.sec-label {
+  position: relative;
+  left: 22.5rem;
+  bottom: 1.3rem;
+}
 
 
 
