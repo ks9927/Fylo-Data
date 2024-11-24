@@ -28,6 +28,8 @@ body {
   font-family: var(--font-fam);
   background-image: var(--desktop-bg-image);
   background-color: var(--v-dark-blue);
+  display: grid;
+  place-items: center;
 }
 
 .grid-container {
