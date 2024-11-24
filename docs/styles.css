@@ -38,6 +38,7 @@ body {
   grid-template-areas: 
   "fylo storage";
   gap: 1rem;
+  place-items: center;
 }
 .storage-container,
 .fylo-container {
@@ -46,11 +47,15 @@ body {
 
 .fylo-container {
   grid-area: fylo;
+  height: 11rem;
+  width: 20rem;
 }
 
 .storage-container {
   grid-area: storage;
   color: var(--pale-blue);
+  height: 7.5rem;
+  width: 30rem;
 }
 
 .fylo-icons > * {
