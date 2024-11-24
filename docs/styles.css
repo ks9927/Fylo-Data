@@ -59,6 +59,7 @@ body {
   height: 7.5rem;
   width: 30rem;
   align-self: flex-end;
+  padding-top: 20px;
 }
 
 .logo {
