@@ -56,8 +56,17 @@ body {
   color: var(--pale-blue);
   height: 7.5rem;
   width: 30rem;
+  align-self: flex-end;
+}
+.logo {
+  margin-top: 2rem;
+  margin-left: 2rem;
 }
 
+.fylo-icons {
+  margin-top: 1.5rem;
+  margin-left: 2rem;
+}
 .fylo-icons > * {
   background-color: var(--v-dark-blue);
   padding: 15px;
